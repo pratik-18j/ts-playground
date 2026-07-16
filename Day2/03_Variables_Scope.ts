@@ -20,23 +20,34 @@ varFunctionScope();
 //--------------------------------------------------
 
 
-//    Example 2: let and const (Block Scope)
+//    Example 2: let  (Block Scope)
 
-function letConstBlockScope(){
+function letVarBlockScope(){
     if(true){
         let msglet = "I am let variable";
-        const msgconst = "I am const variable";
         console.log(msglet +" called from block");
-        console.log(msgconst + " called from block");
     }
     // console.log(msglet)
     // console.log(msgconst) // This will throw an error because 'msglet' and 'msgconst' are block-scoped and not accessible outside the if block
 }
 
-letConstBlockScope();
+letVarBlockScope();
 
 
-//    Example 3:
+//    Example 3: Const  (scope is dependent on where it is declared)
+
+function letConstBlockScope(){
+    if(true){
+        const msgblockconst = "I am const variable declared inside block";
+        console.log(msgblockconst +" called from block");
+    }
+    const msgfunConst = "I am const variable declared inside function";
+    // console.log(msgblockconst) // This will throw an error because 'msglet' and 'msgblockconst' are block-scoped and not accessible outside the if block
+    console.log(msgfunConst +" called from function"); // Accessible here because 'msgfunConst' is declared in the function scope
+}
+letConstBlockScope()
+
+//    Example 4:
 
 function scopeDiff(){
     if(true){
