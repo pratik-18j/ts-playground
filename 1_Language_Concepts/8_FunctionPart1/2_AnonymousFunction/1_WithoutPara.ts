@@ -10,3 +10,11 @@
 
     variable();     //calling the function
 */
+
+
+let msg = function(): string                        //to variable, don't need to specify the datatype
+{
+    return 'This is simple Anonymous function'
+}
+
+console.log(msg())
