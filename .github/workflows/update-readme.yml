@@ -1,0 +1,39 @@
+name: Auto-Update README Tree
+
+# 1. Trigger: When does this run? (Every time you push to the main branch)
+on:
+  push:
+    branches:
+      - main
+
+# 2. Permissions: Give the bot permission to save files to your repo
+permissions:
+  contents: write
+
+# 3. Jobs: The actual steps the robot takes
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Install Tree Command
+        run: sudo apt-get install -y tree
+
+      - name: Generate New README
+        run: |
+          echo "# TypeScript Fundamentals & Interview Prep 🚀" > README.md
+          echo "" >> README.md
+          echo "Welcome to my TypeScript playground! This repository tracks my progress as I complete my coursework and practice automation concepts." >> README.md
+          echo "" >> README.md
+          echo "## 📁 Repository Structure" >> README.md
+          echo '```text' >> README.md
+          tree -I '.git|node_modules' >> README.md
+          echo '```' >> README.md
+
+      - name: Save and Commit to GitHub
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "docs: auto-update repository tree in README"
+          file_pattern: README.md # 🔒 Locks the bot to only touch the README
