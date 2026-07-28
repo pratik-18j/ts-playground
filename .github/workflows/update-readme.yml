@@ -1,12 +1,12 @@
 name: Auto-Update README Tree
 
-# 1. Trigger: When does this run? (Every time you push to the main branch)
+# 1. Trigger: When does this run?
 on:
   push:
     branches:
       - main
 
-# 2. Permissions: Give the bot permission to save files to your repo
+# 2. Permissions: Give the bot permission to save files
 permissions:
   contents: write
 
@@ -21,19 +21,28 @@ jobs:
       - name: Install Tree Command
         run: sudo apt-get install -y tree
 
-      - name: Generate New README
+      # THIS IS THE NEW ENTERPRISE TEMPLATE INJECTION STEP
+      - name: Update README Tree Section
         run: |
-          echo "# TypeScript Fundamentals & Interview Prep 🚀" > README.md
-          echo "" >> README.md
-          echo "Welcome to my TypeScript playground! This repository tracks my progress as I complete my coursework and practice automation concepts." >> README.md
-          echo "" >> README.md
-          echo "## 📁 Repository Structure" >> README.md
-          echo '```text' >> README.md
-          tree -I '.git|node_modules' >> README.md
-          echo '```' >> README.md
+          tree -I '.git|node_modules' > tree.txt
+          awk '
+            /<!-- START_TREE -->/ {
+              print $0
+              print "```text"
+              system("cat tree.txt")
+              print "```"
+              skip=1
+              next
+            }
+            /<!-- END_TREE -->/ {
+              skip=0
+            }
+            !skip { print $0 }
+          ' README.md > temp_readme.md
+          mv temp_readme.md README.md
 
       - name: Save and Commit to GitHub
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "docs: auto-update repository tree in README"
-          file_pattern: README.md # 🔒 Locks the bot to only touch the README
+          file_pattern: README.md
