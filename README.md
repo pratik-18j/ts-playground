@@ -54,13 +54,22 @@ Welcome to my TypeScript playground! This repository tracks my progress as I wor
 │       │   ├── 4_RestParaDiffDataTypes.ts
 │       │   ├── 5_OptionalPara.ts
 │       │   └── 6_DefaultPara.ts
-│       └── 2_AnonymousFunction
-│           ├── 1_WithoutPara.ts
-│           ├── 2_WithPara.ts
-│           ├── 3_RestPara.ts
-│           ├── 4_RestParaDiffDataTypes.ts
-│           ├── 5_OptionalPara.ts
-│           └── 6_DefaultPara.ts
+│       ├── 2_AnonymousFunction
+│       │   ├── 1_WithoutPara.ts
+│       │   ├── 2_WithPara.ts
+│       │   ├── 3_RestPara.ts
+│       │   ├── 4_RestParaDiffDataTypes.ts
+│       │   ├── 5_OptionalPara.ts
+│       │   └── 6_DefaultPara.ts
+│       └── 3_ArrowOrLambdaFunction.ts
+│           ├── 1_ArrowOrLambda.ts
+│           ├── 2_ArrowFunction.ts
+│           ├── 3_ArrowWithPara.ts
+│           ├── 4_ArrowImplict.ts
+│           ├── 5_ArrowOptionalPara.ts
+│           ├── 6_ArrowDefaultPara.ts
+│           ├── 7_ArrowRest.ts
+│           └── 8_ArrowRestMultipleDatatypes.ts
 ├── 2_Interview_Programs
 │   ├── 1_if
 │   │   ├── 1_CharCase.ts
@@ -84,6 +93,6 @@ Welcome to my TypeScript playground! This repository tracks my progress as I wor
 ├── README.md
 └── tree.txt
 
-17 directories, 59 files
+18 directories, 67 files
 ```
 <!-- END_TREE -->
