@@ -86,13 +86,20 @@ Welcome to my TypeScript playground! This repository tracks my progress as I wor
 │   │   ├── 4_MultipleOf5And10.ts
 │   │   ├── 5.VowelsOrConsonant.ts
 │   │   └── 6.MultipleOf2And3.ts
-│   └── 4_SwitchCase
-│       ├── 1_MonthNumber.ts
-│       ├── 2_ArithmaticOps.ts
-│       └── 3_Season.ts
+│   ├── 4_SwitchCase
+│   │   ├── 1_MonthNumber.ts
+│   │   ├── 2_ArithmaticOps.ts
+│   │   └── 3_Season.ts
+│   └── 5_While
+│       ├── 1_SumOfNumbers.ts
+│       ├── 2_Factorial.ts
+│       ├── 3_ReverseNumber.ts
+│       ├── 4_PrimeNumber.ts
+│       ├── 5_LargestDigit.ts
+│       └── 6_PallindromeNumber.ts
 ├── README.md
 └── tree.txt
 
-18 directories, 67 files
+19 directories, 73 files
 ```
 <!-- END_TREE -->
