@@ -10,7 +10,7 @@ Welcome to my TypeScript playground! This repository tracks my progress as I wor
 .
 ├── 1_Language_Concepts
 │   ├── 1_Introduction
-│   │   └── typescript-introduction.md
+│   │   └── typescript-introduction (2).md
 │   ├── 2_TypeScript&SetupEnvironment
 │   │   └── FirstDemo.ts
 │   ├── 3_TsVariables
@@ -46,30 +46,34 @@ Welcome to my TypeScript playground! This repository tracks my progress as I wor
 │   │   ├── 3_DoWhileLoop.ts
 │   │   ├── 4_ForLoop.ts
 │   │   └── 5_BreakAndContinue.ts
-│   └── 8_FunctionPart1
-│       ├── 1_NamedFunctions
-│       │   ├── 1_WithNoPara.ts
-│       │   ├── 2_WithPara.ts
-│       │   ├── 3_RestPara.ts
-│       │   ├── 4_RestParaDiffDataTypes.ts
-│       │   ├── 5_OptionalPara.ts
-│       │   └── 6_DefaultPara.ts
-│       ├── 2_AnonymousFunction
-│       │   ├── 1_WithoutPara.ts
-│       │   ├── 2_WithPara.ts
-│       │   ├── 3_RestPara.ts
-│       │   ├── 4_RestParaDiffDataTypes.ts
-│       │   ├── 5_OptionalPara.ts
-│       │   └── 6_DefaultPara.ts
-│       └── 3_ArrowOrLambdaFunction.ts
-│           ├── 1_ArrowOrLambda.ts
-│           ├── 2_ArrowFunction.ts
-│           ├── 3_ArrowWithPara.ts
-│           ├── 4_ArrowImplict.ts
-│           ├── 5_ArrowOptionalPara.ts
-│           ├── 6_ArrowDefaultPara.ts
-│           ├── 7_ArrowRest.ts
-│           └── 8_ArrowRestMultipleDatatypes.ts
+│   ├── 8_FunctionPart1
+│   │   ├── 1_NamedFunctions
+│   │   │   ├── 1_WithNoPara.ts
+│   │   │   ├── 2_WithPara.ts
+│   │   │   ├── 3_RestPara.ts
+│   │   │   ├── 4_RestParaDiffDataTypes.ts
+│   │   │   ├── 5_OptionalPara.ts
+│   │   │   └── 6_DefaultPara.ts
+│   │   ├── 2_AnonymousFunction
+│   │   │   ├── 1_WithoutPara.ts
+│   │   │   ├── 2_WithPara.ts
+│   │   │   ├── 3_RestPara.ts
+│   │   │   ├── 4_RestParaDiffDataTypes.ts
+│   │   │   ├── 5_OptionalPara.ts
+│   │   │   └── 6_DefaultPara.ts
+│   │   ├── 3_ArrowOrLambdaFunction.ts
+│   │   │   ├── 1_ArrowOrLambda.ts
+│   │   │   ├── 2_ArrowFunction.ts
+│   │   │   ├── 3_ArrowWithPara.ts
+│   │   │   ├── 4_ArrowImplict.ts
+│   │   │   ├── 5_ArrowOptionalPara.ts
+│   │   │   ├── 6_ArrowDefaultPara.ts
+│   │   │   ├── 7_ArrowRest.ts
+│   │   │   └── 8_ArrowRestMultipleDatatypes.ts
+│   │   └── functions-guide.md
+│   └── 9_FunctionPart2
+│       ├── 1.CallbackFunction.ts
+│       └── 2_OverloadingFunction.ts
 ├── 2_Interview_Programs
 │   ├── 1_if
 │   │   ├── 1_CharCase.ts
@@ -90,16 +94,30 @@ Welcome to my TypeScript playground! This repository tracks my progress as I wor
 │   │   ├── 1_MonthNumber.ts
 │   │   ├── 2_ArithmaticOps.ts
 │   │   └── 3_Season.ts
-│   └── 5_While
-│       ├── 1_SumOfNumbers.ts
-│       ├── 2_Factorial.ts
-│       ├── 3_ReverseNumber.ts
-│       ├── 4_PrimeNumber.ts
-│       ├── 5_LargestDigit.ts
-│       └── 6_PallindromeNumber.ts
+│   ├── 5_While
+│   │   ├── 1_SumOfNumbers.ts
+│   │   ├── 2_Factorial.ts
+│   │   ├── 3_ReverseNumber.ts
+│   │   ├── 4_PrimeNumber.ts
+│   │   ├── 5_LargestDigit.ts
+│   │   └── 6_PallindromeNumber.ts
+│   ├── 6_DoWhile
+│   │   ├── 2_ArithmaticOperations.ts
+│   │   └── Print1To10.ts
+│   └── 7_ForLoop
+│       ├── 10_SumOfNEvenNumbers.ts
+│       ├── 1_MultipleOf5.ts
+│       ├── 2_PrimeUpto50.ts
+│       ├── 3_SumOfEvenNum.ts
+│       ├── 4_SumOfOdd.ts
+│       ├── 5_PrintTable.ts
+│       ├── 6_DivisibleBy3And5.ts
+│       ├── 7_CountDigit.ts
+│       ├── 8_SumOfDigits.ts
+│       └── 9_MultipleOfNumber.ts
 ├── README.md
 └── tree.txt
 
-19 directories, 73 files
+22 directories, 88 files
 ```
 <!-- END_TREE -->
