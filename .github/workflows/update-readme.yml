@@ -1,13 +1,16 @@
 name: Auto-Update README Tree
 
+# 1. Trigger: When does this run?
 on:
   push:
     branches:
       - main
 
+# 2. Permissions: Give the bot permission to save files
 permissions:
   contents: write
 
+# 3. Jobs: The actual steps the robot takes
 jobs:
   update-readme:
     runs-on: ubuntu-latest
@@ -18,21 +21,33 @@ jobs:
       - name: Install Tree Command
         run: sudo apt-get install -y tree
 
+      # THE MASTERCLASS HYBRID INJECTION STEP
       - name: Update README Tree Section
         run: |
-          echo '```text' > combined_tree.txt
-          tree -L 3 -I '.git|node_modules|combined_tree.txt' >> combined_tree.txt
-          echo '```' >> combined_tree.txt
+          # 1. Generate full tree to get the real total count
+          tree -I '.git|node_modules|combined_tree.txt' > full_tree.txt
+          TOTAL_COUNT=$(tail -n 1 full_tree.txt)
           
-          echo '' >> combined_tree.txt
-          echo '<details>' >> combined_tree.txt
-          echo '<summary>▶ Click here to view all files</summary>' >> combined_tree.txt
+          # 2. Generate short tree (Level 2), strip its false count, and append the true count
+          tree -L 2 -I '.git|node_modules|combined_tree.txt' | head -n -2 > short_tree.txt
+          echo "" >> short_tree.txt
+          echo "$TOTAL_COUNT" >> short_tree.txt
+          
+          # 3. Build the final UI (Dropdown first, then Short Tree)
+          echo '<details>' > combined_tree.txt
+          echo '<summary>▶ Click here to view all files & folders</summary>' >> combined_tree.txt
           echo '' >> combined_tree.txt
           echo '```text' >> combined_tree.txt
-          tree -I '.git|node_modules|combined_tree.txt' >> combined_tree.txt
+          cat full_tree.txt >> combined_tree.txt
           echo '```' >> combined_tree.txt
           echo '</details>' >> combined_tree.txt
           
+          echo '' >> combined_tree.txt
+          echo '```text' >> combined_tree.txt
+          cat short_tree.txt >> combined_tree.txt
+          echo '```' >> combined_tree.txt
+          
+          # 4. Inject into the README
           awk '
             /<!-- START_TREE -->/ {
               print $0
@@ -46,11 +61,12 @@ jobs:
             !skip { print $0 }
           ' README.md > temp_readme.md
           
+          # 5. Clean up temporary files
           mv temp_readme.md README.md
-          rm combined_tree.txt
+          rm full_tree.txt short_tree.txt combined_tree.txt
 
       - name: Save and Commit to GitHub
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "docs: implement hybrid collapsible tree"
+          commit_message: "docs: optimize hybrid tree UI with accurate counts"
           file_pattern: README.md
