@@ -10,8 +10,8 @@ Welcome to my TypeScript playground! This repository tracks my progress as I wor
 .
 ├── 1_Language_Concepts
 │   ├── 1_Introduction
-│   │   └── typescript-introduction (2).md
-│   ├── 2_TypeScript&SetupEnvironment
+│   │   └── typescript-introduction.md
+│   ├── 2_TypeScript_Setup_Environment
 │   │   └── FirstDemo.ts
 │   ├── 3_TsVariables
 │   │   ├── 01_Comments.ts
@@ -61,7 +61,7 @@ Welcome to my TypeScript playground! This repository tracks my progress as I wor
 │   │   │   ├── 4_RestParaDiffDataTypes.ts
 │   │   │   ├── 5_OptionalPara.ts
 │   │   │   └── 6_DefaultPara.ts
-│   │   ├── 3_ArrowOrLambdaFunction.ts
+│   │   ├── 3_ArrowOrLambdaFunction
 │   │   │   ├── 1_ArrowOrLambda.ts
 │   │   │   ├── 2_ArrowFunction.ts
 │   │   │   ├── 3_ArrowWithPara.ts
@@ -72,7 +72,7 @@ Welcome to my TypeScript playground! This repository tracks my progress as I wor
 │   │   │   └── 8_ArrowRestMultipleDatatypes.ts
 │   │   └── functions-guide.md
 │   └── 9_FunctionPart2
-│       ├── 1.CallbackFunction.ts
+│       ├── 1_CallbackFunction.ts
 │       └── 2_OverloadingFunction.ts
 ├── 2_Interview_Programs
 │   ├── 1_if
