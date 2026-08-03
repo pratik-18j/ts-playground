@@ -6,102 +6,8 @@ Welcome to my TypeScript playground! This repository tracks my progress as I wor
 
 ## 📁 Repository Structure
 <!-- START_TREE -->
-```text
-.
-├── 1_Language_Concepts
-│   ├── 1_Introduction
-│   │   └── typescript-introduction.md
-│   ├── 2_TypeScript_Setup_Environment
-│   │   └── FirstDemo.ts
-│   ├── 3_TsVariables
-│   │   ├── 01_Comments.ts
-│   │   ├── 02_Variables.ts
-│   │   ├── 03_Variables_Scope.ts
-│   │   ├── 04_Variables_Declaration.ts
-│   │   ├── 05_Variables_Re-declaration.ts
-│   │   ├── 06_Var_Re-assignmentOrRe-initialization.ts
-│   │   └── 07_Var_Hosting.ts
-│   ├── 4_DataTypes
-│   │   ├── 01_Test.ts
-│   │   ├── 02_DataTypes.ts
-│   │   ├── 03_Number.ts
-│   │   ├── 04_String.ts
-│   │   ├── 05_Boolean.ts
-│   │   ├── 06_Null.ts
-│   │   ├── 07_Any.ts
-│   │   ├── 08_Union.ts
-│   │   └── 09_Void.ts
-│   ├── 5_Operators
-│   │   ├── 01_Operators.ts
-│   │   ├── 02_IncrementAndDecrement.ts
-│   │   └── 03_TernaryOrConditionalOperator.ts
-│   ├── 6_ConditionalStatments
-│   │   ├── 01_if.ts
-│   │   ├── 02_ifelse.ts
-│   │   ├── 03_NestedIfElse.ts
-│   │   └── 04_SwitchCase.ts
-│   ├── 7_LoopsInTS
-│   │   ├── 1_Loops.md
-│   │   ├── 2_WhileLoop.ts
-│   │   ├── 3_DoWhileLoop.ts
-│   │   ├── 4_ForLoop.ts
-│   │   └── 5_BreakAndContinue.ts
-│   ├── 8_FunctionPart1
-│   │   ├── 1_NamedFunctions
-│   │   ├── 2_AnonymousFunction
-│   │   ├── 3_ArrowOrLambdaFunction
-│   │   └── functions-guide.md
-│   └── 9_FunctionPart2
-│       ├── 1_CallbackFunction.ts
-│       └── 2_OverloadingFunction.ts
-├── 2_Interview_Programs
-│   ├── 1_if
-│   │   ├── 1_CharCase.ts
-│   │   └── 2_Multiple.ts
-│   ├── 2_IfElse
-│   │   ├── 1_Elegibiltiy.ts
-│   │   ├── 2_Compare.ts
-│   │   ├── 3_PositiveNegative.ts
-│   │   └── 4_SeniorCitizen.ts
-│   ├── 3_NestedIfElse
-│   │   ├── 1_PositiveAndEven.ts
-│   │   ├── 2_UppercaseVowel.ts
-│   │   ├── 3_LargestOf3.ts
-│   │   ├── 4_MultipleOf5And10.ts
-│   │   ├── 5.VowelsOrConsonant.ts
-│   │   └── 6.MultipleOf2And3.ts
-│   ├── 4_SwitchCase
-│   │   ├── 1_MonthNumber.ts
-│   │   ├── 2_ArithmaticOps.ts
-│   │   └── 3_Season.ts
-│   ├── 5_While
-│   │   ├── 1_SumOfNumbers.ts
-│   │   ├── 2_Factorial.ts
-│   │   ├── 3_ReverseNumber.ts
-│   │   ├── 4_PrimeNumber.ts
-│   │   ├── 5_LargestDigit.ts
-│   │   └── 6_PallindromeNumber.ts
-│   ├── 6_DoWhile
-│   │   ├── 1_Print1To10.ts
-│   │   └── 2_ArithmaticOperations.ts
-│   └── 7_ForLoop
-│       ├── 10_SumOfNEvenNumbers.ts
-│       ├── 1_MultipleOf5.ts
-│       ├── 2_PrimeUpto50.ts
-│       ├── 3_SumOfEvenNum.ts
-│       ├── 4_SumOfOdd.ts
-│       ├── 5_PrintTable.ts
-│       ├── 6_DivisibleBy3And5.ts
-│       ├── 7_CountDigit.ts
-│       ├── 8_SumOfDigits.ts
-│       └── 9_MultipleOfNumber.ts
-└── README.md
-
-22 directories, 67 files
-```
-
 <details>
-<summary>▶ Click here to view all files</summary>
+<summary>▶ Click here to view all files & folders</summary>
 
 ```text
 .
@@ -212,9 +118,37 @@ Welcome to my TypeScript playground! This repository tracks my progress as I wor
 │       ├── 7_CountDigit.ts
 │       ├── 8_SumOfDigits.ts
 │       └── 9_MultipleOfNumber.ts
-└── README.md
+├── README.md
+└── full_tree.txt
 
-22 directories, 87 files
+22 directories, 88 files
 ```
 </details>
+
+```text
+.
+├── 1_Language_Concepts
+│   ├── 1_Introduction
+│   ├── 2_TypeScript_Setup_Environment
+│   ├── 3_TsVariables
+│   ├── 4_DataTypes
+│   ├── 5_Operators
+│   ├── 6_ConditionalStatments
+│   ├── 7_LoopsInTS
+│   ├── 8_FunctionPart1
+│   └── 9_FunctionPart2
+├── 2_Interview_Programs
+│   ├── 1_if
+│   ├── 2_IfElse
+│   ├── 3_NestedIfElse
+│   ├── 4_SwitchCase
+│   ├── 5_While
+│   ├── 6_DoWhile
+│   └── 7_ForLoop
+├── README.md
+├── full_tree.txt
+└── short_tree.txt
+
+22 directories, 88 files
+```
 <!-- END_TREE -->
