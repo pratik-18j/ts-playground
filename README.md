@@ -7,11 +7,14 @@ Welcome to my TypeScript playground! This repository tracks my progress as I wor
 ## 📁 Repository Structure
 <!-- START_TREE -->
 <details>
-<summary>▶ Click here to view all files & folders</summary>
+<summary><b>▶ Click here to view all files & folders.</b></summary>
 
 ```text
 .
 ├── 1_Language_Concepts
+│   ├── 10_ArraysAndTuples
+│   │   ├── 1_Arrays.ts
+│   │   └── 2_ArrayIterations.ts
 │   ├── 1_Introduction
 │   │   └── typescript-introduction.md
 │   ├── 2_TypeScript_Setup_Environment
@@ -77,57 +80,62 @@ Welcome to my TypeScript playground! This repository tracks my progress as I wor
 │   └── 9_FunctionPart2
 │       ├── 1_CallbackFunction.ts
 │       └── 2_OverloadingFunction.ts
-├── 2_Interview_Programs
-│   ├── 1_if
-│   │   ├── 1_CharCase.ts
-│   │   └── 2_Multiple.ts
-│   ├── 2_IfElse
-│   │   ├── 1_Elegibiltiy.ts
-│   │   ├── 2_Compare.ts
-│   │   ├── 3_PositiveNegative.ts
-│   │   └── 4_SeniorCitizen.ts
-│   ├── 3_NestedIfElse
-│   │   ├── 1_PositiveAndEven.ts
-│   │   ├── 2_UppercaseVowel.ts
-│   │   ├── 3_LargestOf3.ts
-│   │   ├── 4_MultipleOf5And10.ts
-│   │   ├── 5.VowelsOrConsonant.ts
-│   │   └── 6.MultipleOf2And3.ts
-│   ├── 4_SwitchCase
-│   │   ├── 1_MonthNumber.ts
-│   │   ├── 2_ArithmaticOps.ts
-│   │   └── 3_Season.ts
-│   ├── 5_While
-│   │   ├── 1_SumOfNumbers.ts
-│   │   ├── 2_Factorial.ts
-│   │   ├── 3_ReverseNumber.ts
-│   │   ├── 4_PrimeNumber.ts
-│   │   ├── 5_LargestDigit.ts
-│   │   └── 6_PallindromeNumber.ts
-│   ├── 6_DoWhile
-│   │   ├── 1_Print1To10.ts
-│   │   └── 2_ArithmaticOperations.ts
-│   └── 7_ForLoop
-│       ├── 10_SumOfNEvenNumbers.ts
-│       ├── 1_MultipleOf5.ts
-│       ├── 2_PrimeUpto50.ts
-│       ├── 3_SumOfEvenNum.ts
-│       ├── 4_SumOfOdd.ts
-│       ├── 5_PrintTable.ts
-│       ├── 6_DivisibleBy3And5.ts
-│       ├── 7_CountDigit.ts
-│       ├── 8_SumOfDigits.ts
-│       └── 9_MultipleOfNumber.ts
-├── README.md
-└── full_tree.txt
+└── 2_Interview_Programs
+    ├── 1_if
+    │   ├── 1_CharCase.ts
+    │   └── 2_Multiple.ts
+    ├── 2_IfElse
+    │   ├── 1_Elegibiltiy.ts
+    │   ├── 2_Compare.ts
+    │   ├── 3_PositiveNegative.ts
+    │   └── 4_SeniorCitizen.ts
+    ├── 3_NestedIfElse
+    │   ├── 1_PositiveAndEven.ts
+    │   ├── 2_UppercaseVowel.ts
+    │   ├── 3_LargestOf3.ts
+    │   ├── 4_MultipleOf5And10.ts
+    │   ├── 5.VowelsOrConsonant.ts
+    │   └── 6.MultipleOf2And3.ts
+    ├── 4_SwitchCase
+    │   ├── 1_MonthNumber.ts
+    │   ├── 2_ArithmaticOps.ts
+    │   └── 3_Season.ts
+    ├── 5_While
+    │   ├── 1_SumOfNumbers.ts
+    │   ├── 2_Factorial.ts
+    │   ├── 3_ReverseNumber.ts
+    │   ├── 4_PrimeNumber.ts
+    │   ├── 5_LargestDigit.ts
+    │   └── 6_PallindromeNumber.ts
+    ├── 6_DoWhile
+    │   ├── 1_Print1To10.ts
+    │   └── 2_ArithmaticOperations.ts
+    ├── 7_ForLoop
+    │   ├── 10_SumOfNEvenNumbers.ts
+    │   ├── 1_MultipleOf5.ts
+    │   ├── 2_PrimeUpto50.ts
+    │   ├── 3_SumOfEvenNum.ts
+    │   ├── 4_SumOfOdd.ts
+    │   ├── 5_PrintTable.ts
+    │   ├── 6_DivisibleBy3And5.ts
+    │   ├── 7_CountDigit.ts
+    │   ├── 8_SumOfDigits.ts
+    │   └── 9_MultipleOfNumber.ts
+    ├── 8_Continue
+    │   ├── 1_PrintOdd.ts
+    │   └── 2_SkipMultipleOf5.ts
+    └── 9_Break
+        ├── 1_FirstEvenNumber.ts
+        └── 2_StopAfter15.ts
 
-22 directories, 88 files
+25 directories, 92 files
 ```
 </details>
 
 ```text
 .
 ├── 1_Language_Concepts
+│   ├── 10_ArraysAndTuples
 │   ├── 1_Introduction
 │   ├── 2_TypeScript_Setup_Environment
 │   ├── 3_TsVariables
@@ -137,18 +145,17 @@ Welcome to my TypeScript playground! This repository tracks my progress as I wor
 │   ├── 7_LoopsInTS
 │   ├── 8_FunctionPart1
 │   └── 9_FunctionPart2
-├── 2_Interview_Programs
-│   ├── 1_if
-│   ├── 2_IfElse
-│   ├── 3_NestedIfElse
-│   ├── 4_SwitchCase
-│   ├── 5_While
-│   ├── 6_DoWhile
-│   └── 7_ForLoop
-├── README.md
-├── full_tree.txt
-└── short_tree.txt
+└── 2_Interview_Programs
+    ├── 1_if
+    ├── 2_IfElse
+    ├── 3_NestedIfElse
+    ├── 4_SwitchCase
+    ├── 5_While
+    ├── 6_DoWhile
+    ├── 7_ForLoop
+    ├── 8_Continue
+    └── 9_Break
 
-22 directories, 88 files
+25 directories, 92 files
 ```
 <!-- END_TREE -->
