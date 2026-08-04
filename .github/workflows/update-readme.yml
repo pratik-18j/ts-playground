@@ -24,18 +24,18 @@ jobs:
       # THE MASTERCLASS HYBRID INJECTION STEP
       - name: Update README Tree Section
         run: |
-          # 1. Generate full tree to get the real total count
-          tree -I '.git|node_modules|combined_tree.txt' > full_tree.txt
+          # 1. Generate full tree to get the real total count (ignoring temp files & README)
+          tree -I '.git|node_modules|combined_tree.txt|full_tree.txt|short_tree.txt|README.md' > full_tree.txt
           TOTAL_COUNT=$(tail -n 1 full_tree.txt)
           
           # 2. Generate short tree (Level 2), strip its false count, and append the true count
-          tree -L 2 -I '.git|node_modules|combined_tree.txt' | head -n -2 > short_tree.txt
+          tree -L 2 -I '.git|node_modules|combined_tree.txt|full_tree.txt|short_tree.txt|README.md' | head -n -2 > short_tree.txt
           echo "" >> short_tree.txt
           echo "$TOTAL_COUNT" >> short_tree.txt
           
           # 3. Build the final UI (Dropdown first, then Short Tree)
           echo '<details>' > combined_tree.txt
-          echo '<summary>▶ Click here to view all files & folders</summary>' >> combined_tree.txt
+          echo '<summary><b>▶ Click here to view all files & folders.</b></summary>' >> combined_tree.txt
           echo '' >> combined_tree.txt
           echo '```text' >> combined_tree.txt
           cat full_tree.txt >> combined_tree.txt
@@ -68,5 +68,5 @@ jobs:
       - name: Save and Commit to GitHub
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "docs: optimize hybrid tree UI with accurate counts"
+          commit_message: "docs: exclude temp files and README from tree output"
           file_pattern: README.md
