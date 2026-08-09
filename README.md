@@ -12,9 +12,24 @@ Welcome to my TypeScript playground! This repository tracks my progress as I wor
 ```text
 .
 ├── 1_Language_Concepts
-│   ├── 10_ArraysAndTuples
+│   ├── 10_Arrays
 │   │   ├── 1_Arrays.ts
-│   │   └── 2_ArrayIterations.ts
+│   │   ├── 2_ArrayIterations.ts
+│   │   ├── 3_ArrayWithFunction.ts
+│   │   ├── 4_ArrayMethods.ts
+│   │   └── Aarrays-complete-guide.md
+│   ├── 11_Tupple
+│   │   ├── 1_Tupple.ts
+│   │   ├── 2_TuppleArray_ArrayOfTupples.ts
+│   │   └── Tuples-guide.md
+│   ├── 12_AdvanceArrayMethods
+│   │   ├── 1_ForEach.ts
+│   │   ├── 2_Map.ts
+│   │   ├── 3_Filter.ts
+│   │   ├── 4_Reduce.ts
+│   │   ├── 5_Some.ts
+│   │   ├── 6_Every.ts
+│   │   └── Aarray-Advanced-methods.md
 │   ├── 1_Introduction
 │   │   └── typescript-introduction.md
 │   ├── 2_TypeScript_Setup_Environment
@@ -76,7 +91,7 @@ Welcome to my TypeScript playground! This repository tracks my progress as I wor
 │   │   │   ├── 6_ArrowDefaultPara.ts
 │   │   │   ├── 7_ArrowRest.ts
 │   │   │   └── 8_ArrowRestMultipleDatatypes.ts
-│   │   └── functions-guide.md
+│   │   └── typescript-functions-guide.md
 │   └── 9_FunctionPart2
 │       ├── 1_CallbackFunction.ts
 │       └── 2_OverloadingFunction.ts
@@ -128,14 +143,16 @@ Welcome to my TypeScript playground! This repository tracks my progress as I wor
         ├── 1_FirstEvenNumber.ts
         └── 2_StopAfter15.ts
 
-25 directories, 92 files
+27 directories, 105 files
 ```
 </details>
 
 ```text
 .
 ├── 1_Language_Concepts
-│   ├── 10_ArraysAndTuples
+│   ├── 10_Arrays
+│   ├── 11_Tupple
+│   ├── 12_AdvanceArrayMethods
 │   ├── 1_Introduction
 │   ├── 2_TypeScript_Setup_Environment
 │   ├── 3_TsVariables
@@ -156,6 +173,6 @@ Welcome to my TypeScript playground! This repository tracks my progress as I wor
     ├── 8_Continue
     └── 9_Break
 
-25 directories, 92 files
+27 directories, 105 files
 ```
 <!-- END_TREE -->
