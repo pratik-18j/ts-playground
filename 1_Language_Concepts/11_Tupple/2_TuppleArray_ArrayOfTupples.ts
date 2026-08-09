@@ -9,4 +9,5 @@ let tp = students[1]  // tp does not store the actual primitive values directly 
 
 console.log(tp[0])
 console.log(tp[1])
+console.log(tp)
 
