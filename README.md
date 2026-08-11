@@ -7,29 +7,11 @@ Welcome to my TypeScript playground! This repository tracks my progress as I wor
 ## 📁 Repository Structure
 <!-- START_TREE -->
 <details>
-<summary><b>▶ Click here to view all files & folders.</b></summary>
+<summary><b>▶ Click here to view all files & folders</b></summary>
 
 ```text
 .
 ├── 1_Language_Concepts
-│   ├── 10_Arrays
-│   │   ├── 1_Arrays.ts
-│   │   ├── 2_ArrayIterations.ts
-│   │   ├── 3_ArrayWithFunction.ts
-│   │   ├── 4_ArrayMethods.ts
-│   │   └── Aarrays-complete-guide.md
-│   ├── 11_Tupple
-│   │   ├── 1_Tupple.ts
-│   │   ├── 2_TuppleArray_ArrayOfTupples.ts
-│   │   └── Tuples-guide.md
-│   ├── 12_AdvanceArrayMethods
-│   │   ├── 1_ForEach.ts
-│   │   ├── 2_Map.ts
-│   │   ├── 3_Filter.ts
-│   │   ├── 4_Reduce.ts
-│   │   ├── 5_Some.ts
-│   │   ├── 6_Every.ts
-│   │   └── Aarray-Advanced-methods.md
 │   ├── 1_Introduction
 │   │   └── typescript-introduction.md
 │   ├── 2_TypeScript_Setup_Environment
@@ -92,9 +74,27 @@ Welcome to my TypeScript playground! This repository tracks my progress as I wor
 │   │   │   ├── 7_ArrowRest.ts
 │   │   │   └── 8_ArrowRestMultipleDatatypes.ts
 │   │   └── typescript-functions-guide.md
-│   └── 9_FunctionPart2
-│       ├── 1_CallbackFunction.ts
-│       └── 2_OverloadingFunction.ts
+│   ├── 9_FunctionPart2
+│   │   ├── 1_CallbackFunction.ts
+│   │   └── 2_OverloadingFunction.ts
+│   ├── 10_Arrays
+│   │   ├── 1_Arrays.ts
+│   │   ├── 2_ArrayIterations.ts
+│   │   ├── 3_ArrayWithFunction.ts
+│   │   ├── 4_ArrayMethods.ts
+│   │   └── Aarrays-complete-guide.md
+│   ├── 11_Tupple
+│   │   ├── 1_Tupple.ts
+│   │   ├── 2_TuppleArray_ArrayOfTupples.ts
+│   │   └── Tuples-guide.md
+│   └── 12_AdvanceArrayMethods
+│       ├── 1_ForEach.ts
+│       ├── 2_Map.ts
+│       ├── 3_Filter.ts
+│       ├── 4_Reduce.ts
+│       ├── 5_Some.ts
+│       ├── 6_Every.ts
+│       └── Aarray-Advanced-methods.md
 └── 2_Interview_Programs
     ├── 1_if
     │   ├── 1_CharCase.ts
@@ -126,7 +126,6 @@ Welcome to my TypeScript playground! This repository tracks my progress as I wor
     │   ├── 1_Print1To10.ts
     │   └── 2_ArithmaticOperations.ts
     ├── 7_ForLoop
-    │   ├── 10_SumOfNEvenNumbers.ts
     │   ├── 1_MultipleOf5.ts
     │   ├── 2_PrimeUpto50.ts
     │   ├── 3_SumOfEvenNum.ts
@@ -135,7 +134,8 @@ Welcome to my TypeScript playground! This repository tracks my progress as I wor
     │   ├── 6_DivisibleBy3And5.ts
     │   ├── 7_CountDigit.ts
     │   ├── 8_SumOfDigits.ts
-    │   └── 9_MultipleOfNumber.ts
+    │   ├── 9_MultipleOfNumber.ts
+    │   └── 10_SumOfNEvenNumbers.ts
     ├── 8_Continue
     │   ├── 1_PrintOdd.ts
     │   └── 2_SkipMultipleOf5.ts
@@ -150,9 +150,6 @@ Welcome to my TypeScript playground! This repository tracks my progress as I wor
 ```text
 .
 ├── 1_Language_Concepts
-│   ├── 10_Arrays
-│   ├── 11_Tupple
-│   ├── 12_AdvanceArrayMethods
 │   ├── 1_Introduction
 │   ├── 2_TypeScript_Setup_Environment
 │   ├── 3_TsVariables
@@ -161,7 +158,10 @@ Welcome to my TypeScript playground! This repository tracks my progress as I wor
 │   ├── 6_ConditionalStatments
 │   ├── 7_LoopsInTS
 │   ├── 8_FunctionPart1
-│   └── 9_FunctionPart2
+│   ├── 9_FunctionPart2
+│   ├── 10_Arrays
+│   ├── 11_Tupple
+│   └── 12_AdvanceArrayMethods
 └── 2_Interview_Programs
     ├── 1_if
     ├── 2_IfElse
