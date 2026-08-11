@@ -23,7 +23,8 @@ Welcome to my TypeScript playground! This repository tracks my progress as I wor
 │   │   ├── 04_Variables_Declaration.ts
 │   │   ├── 05_Variables_Re-declaration.ts
 │   │   ├── 06_Var_Re-assignmentOrRe-initialization.ts
-│   │   └── 07_Var_Hosting.ts
+│   │   ├── 07_Var_Hosting.ts
+│   │   └── variables-guide.md
 │   ├── 4_DataTypes
 │   │   ├── 01_Test.ts
 │   │   ├── 02_DataTypes.ts
@@ -33,7 +34,8 @@ Welcome to my TypeScript playground! This repository tracks my progress as I wor
 │   │   ├── 06_Null.ts
 │   │   ├── 07_Any.ts
 │   │   ├── 08_Union.ts
-│   │   └── 09_Void.ts
+│   │   ├── 09_Void.ts
+│   │   └── data-types-guide.md
 │   ├── 5_Operators
 │   │   ├── 01_Operators.ts
 │   │   ├── 02_IncrementAndDecrement.ts
@@ -87,14 +89,19 @@ Welcome to my TypeScript playground! This repository tracks my progress as I wor
 │   │   ├── 1_Tupple.ts
 │   │   ├── 2_TuppleArray_ArrayOfTupples.ts
 │   │   └── Tuples-guide.md
-│   └── 12_AdvanceArrayMethods
-│       ├── 1_ForEach.ts
-│       ├── 2_Map.ts
-│       ├── 3_Filter.ts
-│       ├── 4_Reduce.ts
-│       ├── 5_Some.ts
-│       ├── 6_Every.ts
-│       └── Aarray-Advanced-methods.md
+│   ├── 12_AdvanceArrayMethods
+│   │   ├── 1_ForEach.ts
+│   │   ├── 2_Map.ts
+│   │   ├── 3_Filter.ts
+│   │   ├── 4_Reduce.ts
+│   │   ├── 5_Some.ts
+│   │   ├── 6_Every.ts
+│   │   └── Aarray-Advanced-methods.md
+│   └── 13_String
+│       ├── 1_String.ts
+│       ├── 2_StringMethods.ts
+│       ├── 3_StringImmutable.ts
+│       └── 4_MultilineString.ts
 └── 2_Interview_Programs
     ├── 1_if
     │   ├── 1_CharCase.ts
@@ -143,7 +150,7 @@ Welcome to my TypeScript playground! This repository tracks my progress as I wor
         ├── 1_FirstEvenNumber.ts
         └── 2_StopAfter15.ts
 
-27 directories, 105 files
+28 directories, 111 files
 ```
 </details>
 
@@ -161,7 +168,8 @@ Welcome to my TypeScript playground! This repository tracks my progress as I wor
 │   ├── 9_FunctionPart2
 │   ├── 10_Arrays
 │   ├── 11_Tupple
-│   └── 12_AdvanceArrayMethods
+│   ├── 12_AdvanceArrayMethods
+│   └── 13_String
 └── 2_Interview_Programs
     ├── 1_if
     ├── 2_IfElse
@@ -173,6 +181,6 @@ Welcome to my TypeScript playground! This repository tracks my progress as I wor
     ├── 8_Continue
     └── 9_Break
 
-27 directories, 105 files
+28 directories, 111 files
 ```
 <!-- END_TREE -->
