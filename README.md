@@ -101,7 +101,8 @@ Welcome to my TypeScript playground! This repository tracks my progress as I wor
 │       ├── 1_String.ts
 │       ├── 2_StringMethods.ts
 │       ├── 3_StringImmutable.ts
-│       └── 4_MultilineString.ts
+│       ├── 4_MultilineString.ts
+│       └── strings-guide.md
 └── 2_Interview_Programs
     ├── 1_if
     │   ├── 1_CharCase.ts
@@ -146,11 +147,22 @@ Welcome to my TypeScript playground! This repository tracks my progress as I wor
     ├── 8_Continue
     │   ├── 1_PrintOdd.ts
     │   └── 2_SkipMultipleOf5.ts
-    └── 9_Break
-        ├── 1_FirstEvenNumber.ts
-        └── 2_StopAfter15.ts
+    ├── 9_Break
+    │   ├── 1_FirstEvenNumber.ts
+    │   └── 2_StopAfter15.ts
+    └── 10_Array
+        ├── 1_AddElementInArray.ts
+        ├── 2_DeleteLastElement.ts
+        ├── 3_RemoveFirstElement.ts
+        ├── 4_AddElementAtBegining.ts
+        ├── 5_ConcateTwoArrays.ts
+        ├── 6_ExtractSubArray.ts
+        ├── 7_InsertAndDeleteUsingSplice.ts
+        ├── 8_FindIndexOfElement.ts
+        ├── 9_FindElement.ts
+        └── 10_ArrayToString.ts
 
-28 directories, 111 files
+29 directories, 122 files
 ```
 </details>
 
@@ -179,8 +191,9 @@ Welcome to my TypeScript playground! This repository tracks my progress as I wor
     ├── 6_DoWhile
     ├── 7_ForLoop
     ├── 8_Continue
-    └── 9_Break
+    ├── 9_Break
+    └── 10_Array
 
-28 directories, 111 files
+29 directories, 122 files
 ```
 <!-- END_TREE -->
