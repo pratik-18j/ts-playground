@@ -97,12 +97,17 @@ Welcome to my TypeScript playground! This repository tracks my progress as I wor
 │   │   ├── 5_Some.ts
 │   │   ├── 6_Every.ts
 │   │   └── Aarray-Advanced-methods.md
-│   └── 13_String
-│       ├── 1_String.ts
-│       ├── 2_StringMethods.ts
-│       ├── 3_StringImmutable.ts
-│       ├── 4_MultilineString.ts
-│       └── strings-guide.md
+│   ├── 13_String
+│   │   ├── 1_String.ts
+│   │   ├── 2_StringMethods.ts
+│   │   ├── 3_StringImmutable.ts
+│   │   ├── 4_MultilineString.ts
+│   │   └── strings-guide.md
+│   └── 14_Objects
+│       ├── 1_Objects.ts
+│       ├── 2_ObjectType.ts
+│       ├── 3_InlineTypeObject.ts
+│       └── 4_TypeAlias.ts
 └── 2_Interview_Programs
     ├── 1_if
     │   ├── 1_CharCase.ts
@@ -160,9 +165,13 @@ Welcome to my TypeScript playground! This repository tracks my progress as I wor
         ├── 7_InsertAndDeleteUsingSplice.ts
         ├── 8_FindIndexOfElement.ts
         ├── 9_FindElement.ts
-        └── 10_ArrayToString.ts
+        ├── 10_ArrayToString.ts
+        ├── 11_PrintElementsInArrayWithForEach.ts
+        ├── 12_DoubleTheArrayValues.ts
+        ├── 13_FilterOutEvenElement.ts
+        └── 14_SumOfElement.ts
 
-29 directories, 122 files
+30 directories, 130 files
 ```
 </details>
 
@@ -181,7 +190,8 @@ Welcome to my TypeScript playground! This repository tracks my progress as I wor
 │   ├── 10_Arrays
 │   ├── 11_Tupple
 │   ├── 12_AdvanceArrayMethods
-│   └── 13_String
+│   ├── 13_String
+│   └── 14_Objects
 └── 2_Interview_Programs
     ├── 1_if
     ├── 2_IfElse
@@ -194,6 +204,6 @@ Welcome to my TypeScript playground! This repository tracks my progress as I wor
     ├── 9_Break
     └── 10_Array
 
-29 directories, 122 files
+30 directories, 130 files
 ```
 <!-- END_TREE -->
