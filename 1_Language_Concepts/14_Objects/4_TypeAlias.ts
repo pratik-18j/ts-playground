@@ -35,3 +35,36 @@ let book3 : Product = {
 console.log(book1.getInfo())
 console.log(book1.name)
 console.log(book1.price)
+
+// ===================================================================
+
+
+// combination of 2 type objects
+
+type Personal = {
+    name : string,
+    age : number
+}
+type Professional = {
+    email : string,
+    phone : number
+}
+
+type Candidate = Personal & Professional & {
+    getContactInfo : () =>string
+}
+
+
+let Cand_1 : Candidate = {
+    name : "Saimon",
+    age :   45,
+    email : "saimaon12@yahoo.com",
+    phone : 123456789,
+    getContactInfo : function() {
+        return `${this.name} can be contacted on ${this.email} or ${this.phone} `
+    }
+}
+
+console.log(Cand_1.name)
+console.log(Cand_1.email)
+console.log(Cand_1.getContactInfo())
