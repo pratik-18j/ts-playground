@@ -107,7 +107,8 @@ Welcome to my TypeScript playground! This repository tracks my progress as I wor
 │       ├── 1_Objects.ts
 │       ├── 2_ObjectType.ts
 │       ├── 3_InlineTypeObject.ts
-│       └── 4_TypeAlias.ts
+│       ├── 4_TypeAlias.ts
+│       └── 5_ObjectsUsingClasses.ts
 └── 2_Interview_Programs
     ├── 1_if
     │   ├── 1_CharCase.ts
@@ -171,7 +172,7 @@ Welcome to my TypeScript playground! This repository tracks my progress as I wor
         ├── 13_FilterOutEvenElement.ts
         └── 14_SumOfElement.ts
 
-30 directories, 130 files
+30 directories, 131 files
 ```
 </details>
 
@@ -204,6 +205,6 @@ Welcome to my TypeScript playground! This repository tracks my progress as I wor
     ├── 9_Break
     └── 10_Array
 
-30 directories, 130 files
+30 directories, 131 files
 ```
 <!-- END_TREE -->
